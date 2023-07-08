@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -8,7 +9,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0px 220px;
+    margin: 0px 7px;
 }
 nav>ul{
     display: flex;
@@ -39,21 +40,32 @@ border: 0;
 padding: 18px 35px;
 }
 .header{
-    background: #FFF8F3;
-    padding: 30px 30px 30px 200px;
+    background: #fff8f3;
+    padding: 20px 0px 20px 160px;
+    margin-bottom: 160px;
 }
 .header-contents{
     display: flex;
+    background-image: url("../images/header_bg.png");
+    background-repeat:no-repeat;
+    background-position: 120% 115%; 
+    background-size: 65%;
+    
+   
+    
 }
 .banner-greet{
 color: #474747;
 font-size: 40px;
+font-weight: 600;
+margin-bottom: 0px;
 }
 .banner-title{
 color: #181818;
 font-size: 70px;
 font-style: normal;
-font-weight: 500;
+font-weight: 800;
+margin-top:5px ;
 }
 .header-contents p{
 color: #757575;
@@ -63,5 +75,43 @@ font-weight: 200;
 }
 .image-1{
 width: 500px;
-height: 620px;
+height: 570px;
+margin-left: 225px;
+margin-bottom: -5px;
 }
+.banner-content{
+    max-width: 1600px;
+    }
+.banner content p{
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+/* main sectn styles */
+/* about me sttyle */
+.about h3{
+color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 800;
+}
+.about{
+    padding: 100px;
+     color:#757575;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+border-radius: 10px;
+border: none;
+background: #FFF8F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin: 130px 200px;
+}
+.about p{
+color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+}
+
