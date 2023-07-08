@@ -8,6 +8,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0px 220px;
 }
 nav>ul{
     display: flex;
@@ -37,4 +38,30 @@ font-weight: 700;
 border: 0;
 padding: 18px 35px;
 }
-
+.header{
+    background: #FFF8F3;
+    padding: 30px 30px 30px 200px;
+}
+.header-contents{
+    display: flex;
+}
+.banner-greet{
+color: #474747;
+font-size: 40px;
+}
+.banner-title{
+color: #181818;
+font-size: 70px;
+font-style: normal;
+font-weight: 500;
+}
+.header-contents p{
+color: #757575;
+font-size: 18px;
+font-style: normal;
+font-weight: 200;
+}
+.image-1{
+width: 500px;
+height: 620px;
+}
